@@ -1,7 +1,7 @@
 # Matrices & List Comprehension 
 ---
 ## Matrices in Python 3
-* In Python, their is no Matrix data structure. Instead, we use a 2D list with the rules of a normal matrix
+* In Python, there is no Matrix data structure. Instead, we use a 2D list with the rules of a normal matrix
     * All rows must have the same number of values
     * All items in the 2D list must have the same data type
 
@@ -17,6 +17,7 @@ It is a concise method to create a list. It is typically used when the list is..
 * The result of an operation applied to all the terms
 * Made from another sequence
 * A member of another sequence that satisfies a certain condition
+
 **Example 1:**
 ```python
 squares = [i**2 for i in range(10)]

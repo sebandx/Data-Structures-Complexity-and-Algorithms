@@ -3,14 +3,14 @@
 ## What are Tuples?
 Tuples are an iterable data type in Python. Tuples are...
 * Immutable
-* Allow different datatypes as items
+* Allow different data types as items
 * Nestable
 ## How to use Tuples
 * Declared using round brackets
 * (50,) is a singleton tuple, the comma is required
 ## Tuple Operators
 * Concatenation: Joining two tuples
-* Repition: Repeating a tuple multiple times
+* Repetition: Repeating a tuple multiple times
 * Membership: Checking if a value exists in a tuple
 * Tuples are sliceable, iterable, and indexable
 
@@ -64,7 +64,7 @@ print(prime)
 
 fib = (0, 1, 1, 2, 3, 5, 8)
 # Example of unpacking fib[0] and fib[1] to assign values to variables. 
-# Repacks remaining values into new tuple for later use.
+# Repacks remaining values into new tuples for later use.
 fib_0, fib_1, fib_n = fib[0], fib[1], fib[2:]
 print(fib_0)
 print(fib_1)
@@ -78,3 +78,6 @@ Output:
 (1, 2, 3, 5, 8)
 ```
 Packing and unpacking can be useful when combined with variable arguments for function definition and function calls
+
+
+

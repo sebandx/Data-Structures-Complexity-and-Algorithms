@@ -5,10 +5,10 @@
 ```python
 example_set1 = {1, 2, 3}
 singleton_set = {7}
-empty_set = set() # this is because {} is reversed for dictionaries Python 3.
+empty_set = set() # This is because {} is reversed for dictionaries in Python 3.
 ```
-* len(), min(), max(), repition, and conocotation can all be used with sets
-* You can convert iterable datatypes to sets
+* len(), min(), max(), repetition, and connotation can all be used with sets
+* You can convert iterable data types to sets
 ## Membership Operators
 in and not in
 Example:
@@ -25,7 +25,7 @@ False
 * .add() - adds element
 * .remove() - removes element, will not raise error if it isn't found
 * .discard() - removes element, will raise an error if it isn't found
-* .pop() - removes element and returns the value. Not recommended because sets don't have a rear value.
+* .pop() - removes elements and returns the value. Not recommended because sets don't have a rear value.
 * .clear() - empties a set
 Note:
 ```python
@@ -45,6 +45,7 @@ print(result)
 ```
 Output: {'h', 'w', 'e', 'r', 'l', 'd', 'o'}
 * Note as a set cannot contain duplicates, any duplicate letters will be removed when merging the sets
+
 **Intersection** - members that only exist in both sets ('&' symbol)
 ```python
 set1 = set('hello')
@@ -54,6 +55,7 @@ result = set1 & set2
 print(result)
 ```
 Output: {'o', 'l'}
+
 **Difference** - members that exist in **the first set** but not the **second set**
 ```python
 set1 = set('hello')
@@ -71,7 +73,7 @@ Output:
 {'w', 'd', 'r'}
 ```
 
-**Symetric Difference** - Members that exists one or the other set, but not both ('^' symbol)
+**Symmetric Difference** - Members that exists one or the other set, but not both ('^' symbol)
 ```python
 set1 = set('hello')
 set2 = set('world')
@@ -98,6 +100,7 @@ True
 False
 False
 ```
+
 **Subset** - Boolean Operator ('<=' symbol)
 * Same as proper subset, but **A can be identical to B**
 ```python
@@ -116,6 +119,7 @@ True
 True
 False
 ```
+
 **Proper Superset** - Boolean operator ('>' symbol)
 * A is a proper superset of B if A has all the values of B **and more**, however **they are not identical**
 ```python
@@ -134,6 +138,7 @@ False
 True
 False
 ```
+
 **Superset** - Boolean Operator ('>=' symbol)
 * Same as superset. However **A can equal to B**
 ```python
@@ -170,14 +175,14 @@ False
 ```
 ## Set Operators as Methods
 * .union()
-* .interesection()
+* .intersection()
 * .difference()
 * .symmetric_difference()
 * .issubset()
 * .issuperset()
 * .copy()
-* Their are no proper super / subset methods
-* The reasons we have set methods and opertaors is because methods can mutate / add on to the set, while opertaors generate new set
+* There are no proper super / subset methods
+* The reasons we have set methods and operators is because methods can mutate / add on to the set, while operators generate new set
 ## Assignment Operations
 * Performs the set operation and assigns the result o the left operand
 * These are the same as set operators as methods
@@ -204,14 +209,14 @@ a = set('abracadabra')
 b = set('alacazam')
 
 a ^= b # same as: a.symmetric_difference_update(b)
-print('Symmeteric Difference Update:', a)
+print('Symmetric Difference Update:', a)
 ```
 Output:
 ```python
 Union Update: {'b', 'a', 'z', 'r', 'l', 'm', 'd', 'c'}
 Intersection Update: {'c', 'a'}
 Difference Update: {'b', 'r', 'd'}
-Symmeteric Difference Update: {'b', 'z', 'r', 'l', 'm', 'd'}
+Symmetric Difference Update: {'b', 'z', 'r', 'l', 'm', 'd'}
 ```
 ## Set Comprehension
 * Sets support list comprehension as well

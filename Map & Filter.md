@@ -60,7 +60,7 @@ print(palindromic_numbers)
 Output: ```[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99]```
 
 Analysis:
-* ```map(str, array)``` - converts all the numbers in the array into string value so the isPalindrome function can be used
-* ```filter(isPalindrome, map(str, array))``` - filters out all the values which are not palidromes using the isPalidrome function
-* ```map(int, filter(isPalindrome, map(str, array)))``` - converts the string values back into int values
-* ```list(map(int, filter(isPalindrome, map(str, array))))``` - converts the iterable data into a list
+* ```map(str, array)``` -> converts all the numbers in the array into string value so the isPalindrome function can be used
+* ```filter(isPalindrome, map(str, array))``` -> filters out all the values which are not palindromes using the isPalindrome function
+* ```map(int, filter(isPalindrome, map(str, array)))``` -> converts the string values back into int values
+* ```list(map(int, filter(isPalindrome, map(str, array))))``` -> converts the iterable data into a list

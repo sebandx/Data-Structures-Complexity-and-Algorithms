@@ -19,16 +19,16 @@ sammy = {
 }
 ```
 ## Keys
-* Unique adresses for a dictionary value's location
+* Unique addresses for a dictionary value's location
 * Must be immutable
 * Must be unique
-     * If a new pair is initialized with the existing key, it supercides the previous declaration
+     * If a new pair is initialized with the existing key, it supersedes the previous declaration
 ## Values
 * Can be any data-type
 ## Updating a Dictionary
-* Modify existing value by refrencing key
+* Modify existing value by referencing key
 * Add new values by creating new key
-* Overwrite existing value by refrencing key and reassigning the value
+* Overwrite existing value by referencing key and reassigning the value
 Example:
 ```python
 sammy = {
@@ -141,7 +141,7 @@ tammy dict: {'username': None, 'online': None, 'followers': None, 'verified': No
 There are 3 iterations methods
 1. Iterating keys
 2. Iterating values
-3. Iterating key value pairs then upacking
+3. Iterating key value pairs then unpacking
 Example:
 ```python
 # Example 1: Keys
@@ -168,9 +168,9 @@ for k, v in sammy.items():
     print('Current Value:', v)
     print()
 ```
-## dict() Constrcutor Dictionary Comprehension
+## dict() Constructor Dictionary Comprehension
 We can turn other data types to dictionaries using dictionary comprehension.
-Note: We must specify where the keys are and where the values.
+Note: We must specify where the keys are and where the values are.
 ```python
 example_data = [
     ('one', 3),

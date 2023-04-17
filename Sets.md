@@ -25,7 +25,7 @@ False
 * .add() - adds element
 * .remove() - removes element, will not raise error if it isn't found
 * .discard() - removes element, will raise an error if it isn't found
-* .pop() - removes element and returns the value. Not recommended
+* .pop() - removes element and returns the value. Not recommended because sets don't have a rear value.
 * .clear() - empties a set
 Note:
 ```python
